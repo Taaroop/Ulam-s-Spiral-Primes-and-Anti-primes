@@ -46,7 +46,7 @@ def ulam_spiral(num, m):
             for k in range(0, L, m):
                 turtle.penup()
                 turtle.forward(m)
-                if anti_prime(n) == True: # Try out the anti-prime Ulam spiral yourself!
+                if is_prime(n) == True: # Try out the anti-prime Ulam spiral yourself!
                     turtle.dot()
                 n += 1
             turtle.right(90)
